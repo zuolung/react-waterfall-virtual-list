@@ -2,10 +2,6 @@
 
 适用于移动端的瀑布流虚拟列表
 
-### Demo online
-
-[在线查看](https://zuolung.github.io/react-waterfall-virtual-list/dist/index.html)
-
 ### install
 
 npm i react-waterfall-virtual-list -S
@@ -69,6 +65,10 @@ export default function Demo() {
   );
 }
 ```
+
+### Demo online
+
+[在线查看](https://zuolung.github.io/react-waterfall-virtual-list/index.html)
 
 ### API
 
