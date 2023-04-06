@@ -1,0 +1,60 @@
+{
+  "name": "react-waterfall-virtual-list",
+  "version": "0.0.1-alpha.1",
+  "description": "react waterfall virtual list for mobile",
+  "main": "index.js",
+  "types": "types.d.ts",
+  "keywords": [
+    "react",
+    "waterfall",
+    "virtual list"
+  ],
+  "files": [
+    "lib",
+    "README",
+    "package.json"
+  ],
+  "scripts": {
+    "start": "npx webpack-dev-server --host 10.254.9.214 --port 6661",
+    "build": "webpack --config webpack.lib.js",
+    "build:demo": "webpack --config webpack.config.js",
+    "release": "npx gh-pages -d disk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuolung/react-waterfall-virtual-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuolung/react-waterfall-virtual-list/issues"
+  },
+  "homepage": "https://github.com/zuolung/react-waterfall-virtual-list#readme",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "react": "^18.0.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/parser": "^7.11.5",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@types/react": "^18.0.33",
+    "antd-mobile": "^5.2.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.0.4",
+    "less": "3.0.0",
+    "less-loader": "5.0.0",
+    "px2rem-loader": "^0.1.9",
+    "react-dom": "^18.0.2",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
